@@ -43,12 +43,12 @@
 # print(surprise)
 
 #3-9
-# surprise = ['Groucho','Chico','Harpo']
-# print(surprise)
-# surprise[-1] = surprise[-1].lower()
-# print(surprise)
-# surprise = surprise[::-1]
-# print(surprise)
-# surprise[0] = surprise[0].capitalize()
-# print(surprise)
+surprise = ['Groucho','Chico','Harpo']
+print(surprise)
+surprise[-1] = surprise[-1].lower()
+print(surprise)
+surprise = surprise[::-1]
+print(surprise)
+surprise[0] = surprise[0].capitalize()
+print(surprise)
 
