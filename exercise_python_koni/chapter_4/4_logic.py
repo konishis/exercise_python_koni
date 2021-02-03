@@ -103,10 +103,56 @@
 # days_list = list(zip(nums, days))
 # print(days_list)
 
-#zip#2 dict
+#zip#3 dict
 # days = ('Monday','Tuesday','Wednesday')
 # nums = ('one', 'two', 'three','four')
 # days_dict = dict(zip(nums, days))
 # print(days_dict)
 
-#range
+#range#1
+# for x in range(100,0,-1):
+#     print(x)
+
+#range#2
+# tmp = list(range(0,100,1))
+# print(tmp)
+
+#range#3
+# tmp = list(range(0,101,2))
+# print(tmp)
+
+#list内包表記#1
+# num_list = list(range(1,6,1))
+# print(num_list)
+
+#list内包表記#2 https://hibiki-press.tech/python/list-comprehensions/588
+# num_list = [number for number in range(1,6)]
+# print(num_list)
+
+#list内包表記#3
+# num_list = [number-1 for number in range(1,6)]
+# print(num_list)
+
+#list内包表記#4
+# num_list = [number for number in range(1,7) if number % 2 == 0]
+# print(num_list)
+
+#list内包表記#5
+# lows = range(0,100)
+# highs = range(50,100)
+# num_list = [(low, high) for low in lows for high in highs]
+# for num in num_list:
+#     print(num)
+    
+#list内包表記#5
+# lows = range(0,100)
+# highs = range(50,100)
+# num_list = [(low, high) for low in lows for high in highs]
+# for low, high in num_list:
+#     print(low, high)
+
+#ジェネレータ内包表記
+num_thing = (num for num in range(1,6))
+print(num_thing)
+for num in num_thing
+print(num)
