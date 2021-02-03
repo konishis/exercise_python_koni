@@ -103,10 +103,12 @@
 # days_list = list(zip(nums, days))
 # print(days_list)
 
-#zip#2 dict
+#zip#3 dict
 # days = ('Monday','Tuesday','Wednesday')
 # nums = ('one', 'two', 'three','four')
 # days_dict = dict(zip(nums, days))
 # print(days_dict)
 
 #range
+for x in range(0,3):
+    print(x)
