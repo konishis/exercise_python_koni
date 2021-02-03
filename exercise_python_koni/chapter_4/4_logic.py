@@ -108,3 +108,5 @@
 # nums = ('one', 'two', 'three','four')
 # days_dict = dict(zip(nums, days))
 # print(days_dict)
+
+#range
