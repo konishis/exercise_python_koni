@@ -156,3 +156,5 @@ num_thing = (num for num in range(1,6))
 print(num_thing)
 for num in num_thing
 print(num)
+
+#aa
