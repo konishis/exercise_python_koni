@@ -53,3 +53,83 @@
 # print(surprise)
 
 #3-10
+# e2f = {
+#     'dog' : 'chien',
+#     'cat' : 'chat',
+#     'walrus' : 'morse',
+# }
+# print(e2f)
+
+#3-11
+# e2f = {
+#     'dog' : 'chien',
+#     'cat' : 'chat',
+#     'walrus' : 'morse',
+# }
+# print(e2f)
+# tmp = e2f.get('walrus')
+# print(tmp)
+
+#3-13
+# f2e = {
+#     'chien' : 'dog',
+#     'chat' : 'cat',
+#     'morse' : 'walrus',
+# }
+# print(f2e.get('chien'))
+
+#3-15
+# cats_list = ['Henri', 'Grumpy', 'Lucy']
+# animals_dict = {
+#     'cats' : cats_list,
+#     'octopi' : {},
+#     'emus' : {},
+# }
+# life = {
+#     'animals' : animals_dict,
+#     'plants' : {},
+#     'other' : {},
+# }
+# print(life)
+
+#3-16
+# cats_list = ['Henri', 'Grumpy', 'Lucy']
+# animals_dict = {
+#     'cats' : cats_list,
+#     'octopi' : {},
+#     'emus' : {},
+# }
+# life = {
+#     'animals' : animals_dict,
+#     'plants' : {},
+#     'other' : {},
+# }
+# print(life.keys())
+
+#3-17
+# cats_list = ['Henri', 'Grumpy', 'Lucy']
+# animals_dict = {
+#     'cats' : cats_list,
+#     'octopi' : {},
+#     'emus' : {},
+# }
+# life = {
+#     'animals' : animals_dict,
+#     'plants' : {},
+#     'other' : {},
+# }
+# print(animals_dict.keys())
+
+#3-18
+cats_list = ['Henri', 'Grumpy', 'Lucy']
+animals_dict = {
+    'cats' : cats_list,
+    'octopi' : {},
+    'emus' : {},
+}
+life = {
+    'animals' : animals_dict,
+    'plants' : {},
+    'other' : {},
+}
+print(cats_list)
