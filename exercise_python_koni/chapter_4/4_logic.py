@@ -202,6 +202,92 @@
 
 # print(menu(entree='beef',wine='bordeaux',dessert='bage1'))
 
+#デフォルト引数値
+# def menu(drink1, drink2, entree, dessert='suger'):
+#     return {'drink1':drink1,'drink2':drink2, 'entree': entree, 'dessert': dessert}
+
+# print(menu(drink2='beer', entree='chicken',drink1='beer'))
+
+#位置引数のタプル化#1
+# def print_args(*args):
+#     print('入力値：',args)
+    
+# print_args()
+
+#位置引数のタプル化#2
+# def print_args(*args):
+#     print('入力値：',args)
+    
+# print_args(3,2,1,'wait!','uh...')
+
+#位置引数のタプル化#2
+# def print_args(includeNum1,includeNum2, *args):
+#     print('必須入力値1：',includeNum1)
+#     print('必須入力値2：',includeNum2)
+#     print('入力値：',args)
+    
+# print_args(3,2,1,'wait!','uh...')
+
+#キーワード引数の辞書化
+# def printKeyWords(**KeyWords):
+#     print('keyword include:', KeyWords)
+
+# printKeyWords(drink='beer',dessert='cake',human='human')
+
+#docstrung
+# def echo(thing, check):
+#     '''
+#     これは説明
+#     トリプルクォーテーションで囲うこと
+#     で複数行をコメントアウトできる
+#     '''
+#     if check:
+#         print(thing)
+# help(echo)
+# print(echo.__doc__)
+        
+#object function#1
+# def runSomething(func):
+#     func()
+# def answer():
+#     print(42)
+
+# runSomething(answer)
+# print(type(runSomething))
+
+#object function#2
+# def add_args(arg1, arg2):
+#     print(arg1 + arg2)
+    
+# print(type(add_args))
+
+#object function#3
+# def add_args(arg1, arg2):
+#     print(arg1 + arg2)
+    
+# def runFunc_Twoinclude(func, arg1, arg2):
+#     func(arg1,arg2)
+# runFunc_Twoinclude(add_args,2,100)
+
+#object function#4
+# def sum_args(*args):
+#     return sum(args)
+# def runFunc_anyinclude(func, *args):
+#     return func(*args)
+
+# print(runFunc_anyinclude(sum_args,1,2,3,4,5,6,7,8,9,10))
+
+#ジェネレータ
+# print(sum(range(1,100)))
 
 
+#original ジェネレータ
+# def my_range(first=0,last=10,step=1):
+#     num = first
+#     while num < last:
+#         yield num
+#         num += step
 
+# ranger = my_range(1,15)
+# for x in ranger:
+#     print(x)
