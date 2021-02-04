@@ -152,10 +152,56 @@
 #     print(low, high)
 
 #ジェネレータ内包表記
-num_thing = (num for num in range(1,6))
-print(num_thing)
-for num in num_thing
-print(num)
+# num_thing = (num for num in range(1,6))
+# print(num_thing)
+# for num in num_thing
+# print(num)
 
-#aa
+#function#1
+# def DoNothing():
+#     pass
+
+# DoNothing()
+
+#function#2
+# def MakeASounds():
+#     print("quack")
+
+# MakeASounds()
+
+#function#3
+# def ReturnTrue():
+#     return True
+
+# def checkReturn_True():
+#     if ReturnTrue():
+#         printString("OK")
+#     else:
+#         printString("OMG")
+
+# def printString(String):
+#     print(String)
+
+# checkReturn_True()
+
+#function#4
+# def echoAnything(Anything):
+#     return Anything + ' ' + Anything
+
+# print(echoAnything('hello'))
+
+#位置関数 位置を覚えていれば対応付けできる
+# def menu(wine, entree, dessert):
+#     return {'wine':wine, 'entree': entree, 'dessert': dessert}
+
+# print(menu('chardonnay','chicken', 'cake'))
+
+#キーワード引数
+# def menu(wine, entree, dessert):
+#     return {'wine':wine, 'entree': entree, 'dessert': dessert}
+
+# print(menu(entree='beef',wine='bordeaux',dessert='bage1'))
+
+
+
 
