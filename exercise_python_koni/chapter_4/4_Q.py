@@ -54,3 +54,31 @@
 # def good():
 #     return ['Harry','Ron','Hermione']
 # print(good())
+
+#4-9
+# def get_odds():
+#     for num in range(1,10,2):
+#         yield num
+
+# for count , num2 in enumerate(get_odds(),1):
+#     print(count,' ',num2) 
+
+#original#1
+# def includeRangeReturnNumber(INnum):
+#     for cntNum in range(INnum):
+#         yield cntNum
+
+# def oddnumber(INnum):
+#     for enucnt , enunum in enumerate(includeRangeReturnNumber(INnum),1):
+#         if enucnt % 2 == 1:
+#             yield enucnt
+
+# exNUM = 11
+# print(list(oddnumber(exNUM)))
+
+#4-12
+titles = ['Creature of Habit', 'Crewel Fate']
+plots = ['A run turns into a monster', 'Ahaunted yarn shop']
+movies = dict(zip(titles,plots))
+print(movies)
+
