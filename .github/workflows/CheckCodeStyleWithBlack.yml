@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.9
-      # Poetry ‚»‚Ì‚à‚Ì‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é
+      # Poetry ¤½¤Î¤â¤Î¤ò¥¤¥ó¥¹¥È¡¼¥ë¤¹¤ë
       - name: Install Poetry
         run: |
           curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
