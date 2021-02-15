@@ -16,5 +16,8 @@
         "."
     ],
     // "python.pythonPath": "${workspaceFolder}/.venv/Scripts/python",
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "cSpell.words": [
+        "xmltodict"
+    ]
 }
