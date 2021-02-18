@@ -1,6 +1,7 @@
 import json
 import dicttoxml
 from bs4 import BeautifulSoup
+from pprint import pprint
 
 """
 ○使用外部パッケージ
@@ -18,13 +19,13 @@ from bs4 import BeautifulSoup
 
 """
 
-def json2xml():
+def json2xml(): 
     translatedjsonFile = jsontodictFile(readjson())
     translatedxmlFile = dicttoxmlFile(translatedjsonFile)
     writexml(shapingxmlfile(translatedxmlFile))
     # print("jsonからxmlを作成完了")
-    
-    
+
+
 def readjson():
     TargetFile = open('jsonfile.json','r')
     return TargetFile
@@ -51,6 +52,7 @@ def jsontodictFile(Targetfile):
 def dicttoxmlFile(Targetfile):
     # print("辞書からxmlに変換中")
     translatedxmlFile = dicttoxml.dicttoxml(Targetfile)
+    # print(translatedxmlFile)
     return translatedxmlFile
 
 
