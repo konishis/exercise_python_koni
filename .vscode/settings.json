@@ -18,10 +18,19 @@
     // "python.pythonPath": "${workspaceFolder}/.venv/Scripts/python",
     "python.linting.pylintEnabled": true,
     "cSpell.words": [
+        "beautifulsoup",
+        "calnumset",
         "dicted",
+        "dicttoxml",
         "jsontodict",
+        "koni",
+        "konishis",
         "lxml",
+        "pylint",
+        "pytest",
+        "setnums",
         "unparse",
+        "versusnum",
         "xmltodict"
     ],
     "python.linting.enabled": true

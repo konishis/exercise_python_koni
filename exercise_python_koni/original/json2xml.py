@@ -14,14 +14,15 @@ from bs4 import BeautifulSoup
         https://lets-hack.tech/programming/languages/python/beautifulsoup-xml/
 ○内容
     指定したjsonファイルを読み込み、xmlに変換する。その後パース(見やすく)し、ファイル出力する。
-    ここでは「jsonfile.json」を読み込み、「xmlfile.xml」を出力している。。
+    ここでは「jsonfile.json」を読み込み、「xmlfile.xml」を出力している。
 
 """
 
 def json2xml():
     translatedjsonFile = jsontodictFile(readjson())
     translatedxmlFile = dicttoxmlFile(translatedjsonFile)
-    writexml(soupxmlfile(translatedxmlFile))
+    writexml(shapingxmlfile(translatedxmlFile))
+    # print("jsonからxmlを作成完了")
     
     
 def readjson():
@@ -30,21 +31,25 @@ def readjson():
 
 
 def writexml(writeFile):
+    # print("書き込み中")
     with open('xmlfile.xml', 'wt') as xmlFile:
         xmlFile.write(writeFile)
 
 
-def soupxmlfile(soupfile):
-    soup = BeautifulSoup(soupfile, "lxml")
-    return soup.prettify()
+def shapingxmlfile(xmlfile):
+    # print("xmlFileを整形中")
+    shapingfile = BeautifulSoup(xmlfile, "lxml")
+    return shapingfile.prettify()
 
 
 def jsontodictFile(Targetfile):
+    # print("jsonから辞書に変換中")
     translateddictFile = json.load(Targetfile)
     return translateddictFile
 
 
 def dicttoxmlFile(Targetfile):
+    # print("辞書からxmlに変換中")
     translatedxmlFile = dicttoxml.dicttoxml(Targetfile)
     return translatedxmlFile
 
