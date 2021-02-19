@@ -15,23 +15,9 @@
     "python.testing.nosetestArgs": [
         "."
     ],
-    // "python.pythonPath": "${workspaceFolder}/.venv/Scripts/python",
+    "python.pythonPath": "c:\\Users\\jas_konishis\\work\\Python\\exercise_python_koni\\.venv\\Scripts\\python.exe",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "cSpell.words": [
-        "beautifulsoup",
-        "calnumset",
-        "dicted",
-        "dicttoxml",
-        "jsontodict",
-        "koni",
-        "konishis",
-        "lxml",
-        "pylint",
-        "pytest",
-        "setnums",
-        "unparse",
-        "versusnum",
-        "xmltodict"
-    ],
-    "python.linting.enabled": true
 }
