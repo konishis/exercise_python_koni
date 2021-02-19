@@ -17,22 +17,22 @@
 # s = "string cheese"
 # print('{0:10d} {1:10f} {2:10s}'.format(n, f, s))
 
-n= 42
-f=7.03
+n = 42
+f = 7.03
 s = "string cheese"
-print('{0:>10d} {1:>10f} {2:>10s}'.format(n, f, s))
+print("{0:>10d} {1:>10f} {2:>10s}".format(n, f, s))
 
-n= 42
-f=7.03
+n = 42
+f = 7.03
 s = "string cheese"
-print('{0:<10d} {1:<10f} {2:<10s}'.format(n, f, s))
+print("{0:<10d} {1:<10f} {2:<10s}".format(n, f, s))
 
-n= 42
-f=7.03
+n = 42
+f = 7.03
 s = "string cheese"
-print('{0:^10d} {1:^10f} {2:^10s}'.format(n, f, s))
+print("{0:^10d} {1:^10f} {2:^10s}".format(n, f, s))
 
-n= 42
-f=7.03
+n = 42
+f = 7.03
 s = "string cheese"
-print('{0:>10d} {1:>10.4f} {2:>10.4s}'.format(n, f, s))
+print("{0:>10d} {1:>10.4f} {2:>10.4s}".format(n, f, s))

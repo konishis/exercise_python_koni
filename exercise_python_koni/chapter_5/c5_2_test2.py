@@ -1,3 +1,4 @@
-#実行時に引数も設定できる
+# 実行時に引数も設定できる
 import sys
-print('program arguments:', sys.argv)
+
+print("program arguments:", sys.argv)

@@ -1,2 +1,2 @@
-#5-1
+# 5-1
 print("This standalone program works!")

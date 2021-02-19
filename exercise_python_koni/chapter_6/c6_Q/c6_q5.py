@@ -12,7 +12,3 @@ classobj = Element(**dic)
 print(classobj.name)
 print(classobj.symbol)
 print(classobj.number)
-
-
-
-

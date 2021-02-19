@@ -1,7 +1,8 @@
-#継承
-class Car():
+# 継承
+class Car:
     def exclaim(self):
         print("I'm a Car!")
+
 
 class Yugo(Car):
     def exclaim(self):

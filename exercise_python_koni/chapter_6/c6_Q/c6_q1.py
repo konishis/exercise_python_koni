@@ -1,6 +1,7 @@
 class Thing:
     pass
 
+
 print(Thing)
 
 example = Thing()

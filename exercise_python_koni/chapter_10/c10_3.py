@@ -1,13 +1,7 @@
 import os
 
 
-name = 'oops.txt'
+name = "oops.txt"
 print(os.path.isfile(name))
-print(os.path.isdir('.'))
-print(os.path.isabs('/aaa/sss'))
-
-
-
-
-
-
+print(os.path.isdir("."))
+print(os.path.isabs("/aaa/sss"))
